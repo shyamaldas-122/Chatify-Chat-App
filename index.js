@@ -28,7 +28,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://chatify-chat-app-test.vercel.app",
+    origin: "https://localhost:5000",
     credentials: true,
   },
 });
