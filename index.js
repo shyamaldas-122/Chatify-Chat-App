@@ -8,7 +8,7 @@ const app = express();
 const socket = require("socket.io");
 const path = require('path');
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(express.static(path.resolve(__dirname, 'dist')));
 
